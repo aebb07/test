@@ -1,0 +1,161 @@
+body {
+    background-image: url("unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    max-width: 100%;
+    width: 100%;
+}
+
+#inicio {
+    font-size: 22px;
+    font-family: 'Indie Flower', cursive;
+    font-style: italic;
+    color: #262626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 400px;
+    right: 150px;
+}
+
+#uno {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 263px;
+    float: left;
+    left: 445px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color: #262626;
+    font-size: 25px;
+    width: 100px;
+}
+
+#dos {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 485px;
+    float: left;
+    left: 302px;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 600;
+    color: #262626;
+    font-size: 25px;
+    max-width: 100%;
+    width: 15%;
+}
+
+input {
+    border: 1px solid #262626;
+    background: transparent;
+    border-radius: 25px;
+}
+
+#inputs {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: 570px;
+    right: 237px;
+    color: #262626;
+    max-width: 100%;
+    width: 75%;
+}
+
+input[type=text]:focus {
+    border: 1px solid #CBBEB3;
+}
+
+#primero {
+    padding: 10px 5px 10px 10px;
+    margin-right: 10px;
+    width: 15%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+}
+
+#segundo {
+    padding: 10px 5px 10px 10px;
+    width: 15%;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-size: 16px;
+}
+
+
+button {
+    background-color: #262626; 
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 25px;
+    cursor: pointer;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 300;
+    letter-spacing: 2px;
+    float: left;
+    left: 162px;
+    max-width: 100%;
+    width: 10%;
+}
+
+button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+#enviar {
+    display: block;
+    margin: auto;
+    position: relative;
+    top: 590px;
+}
+
+.popup-contenido{
+    background-color: white;
+    width:300px;
+    padding: 10px 20px;
+    margin: 20% auto;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 13px;
+    font-family: 'Poppins';
+    color: #262626;
+    font-weight: 300;
+}
+  .popup{
+    background-color: rgba(0,0,0,.8);
+    position:fixed;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;  
+    opacity:0;
+    pointer-events:none;
+    transition: all 1s;
+}
+  #mipopup:target{
+      opacity:1;
+      pointer-events: auto;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+  
+div a {
+    color: black;
+    float: left;
+    font-weight: 600;
+}
+
